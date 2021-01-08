@@ -1,6 +1,6 @@
 version: '3'
 services:
-  docker-github-pages:
+  docker-hexo:
     build: .
     container_name: docker-github-pages
     ports: 
