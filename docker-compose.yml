@@ -2,6 +2,7 @@ version: '3'
 services:
   docker-github-pages:
     build: .
+    container_name: docker-github-pages
     ports: 
       - "4000:4000"
     environment: 
