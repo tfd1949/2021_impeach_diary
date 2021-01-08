@@ -21,15 +21,15 @@ wait till you can access http://ip:4000
 
 to exit, use ctrl+C
 
-Next time ,you only need to run "docker-compose up -d" and container will be ready!
+Next time ,you only need to run `docker-compose up -d` and container will be ready!
 
-your can push whole path to github project's master branch
+You can push whole source code to github project's master branch
 
 To deploy the site in github pages. just run
 
-docker exec -it docker-github-pages sh
+`docker exec -it docker-github-pages sh`
 
-inside container, 
+and then inside the container, 
 ```
 cd "your project name"
 hexo deploy

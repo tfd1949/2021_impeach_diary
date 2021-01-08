@@ -48,35 +48,35 @@ social:
     link: /atom.xml # config.feed.path
     icon: icon-rss-line
     color: orange
-  - name: QQ 群 389401003
+  - name: QQ 99840598
     # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
     link: https://qm.qq.com/cgi-bin/qm/qr?k=epvxdq1sknJe9JMj6J1LsBw4a6cI_2ln&jump_from=webapi
     icon: icon-qq-line
     color: "#12B7F5"
   - name: GitHub
-    link: https://github.com/YunYouJun
+    link: https://github.com/peyoot
     icon: icon-github-line
     color: "#6e5494"
   - name: 微博
     link: https://weibo.com/jizhideyunyoujun
     icon: icon-weibo-line
     color: "#E6162D"
-  - name: 豆瓣
-    link: https://www.douban.com/people/yunyoujun/
-    icon: icon-douban-line
-    color: "#007722"
-  - name: 网易云音乐
-    link: https://music.163.com/#/user/home?id=247102977
-    icon: icon-netease-cloud-music-line
-    color: "#C20C0C"
+#  - name: 豆瓣
+#    link: https://www.douban.com/people/yunyoujun/
+#    icon: icon-douban-line
+#    color: "#007722"
+#  - name: 网易云音乐
+#    link: https://music.163.com/#/user/home?id=247102977
+#    icon: icon-netease-cloud-music-line
+#    color: "#C20C0C"
   - name: 知乎
-    link: https://www.zhihu.com/people/yunyoujun/
+    link: https://www.zhihu.com/people/peyoot/
     icon: icon-zhihu-line
     color: "#0084FF"
-  - name: 哔哩哔哩
-    link: https://space.bilibili.com/1579790
-    icon: icon-bilibili-line
-    color: "#FF8EB3"
+#  - name: 哔哩哔哩
+#    link: https://space.bilibili.com/1579790
+#    icon: icon-bilibili-line
+#    color: "#FF8EB3"
   # - name: POPI
   #   link: https://www.popiask.cn/elpsycn
   #   icon: icon-questionnaire-line
@@ -86,26 +86,26 @@ social:
   #   icon: icon-wechat-2-line
   #   color: "#1AAD19"
   - name: Twitter
-    link: https://twitter.com/YunYouJun
+    link: https://twitter.com/peyoot-not-register
     icon: icon-twitter-line
     color: "#1da1f2"
   # - name: Telegram
   #   link: https://t.me/YunYouJun
   #   icon: icon-telegram-line
-  #   color: "#0088CC"
-  - name: Telegram Channel
-    link: https://t.me/elpsycn
+  #   color: "#0088CC
+#  - name: Telegram Channel
+#    link: https://t.me/elpsycn
     # icon: icon-telegram-fill
-    icon: icon-telegram-line
-    color: "#0088CC"
+#    icon: icon-telegram-line
+#    color: "#0088CC"
   - name: E-Mail
-    link: mailto:me@yunyoujun.cn
+    link: mailto:peyoot#hotmail.com
     icon: icon-mail-line
     color: "#8E71C1"
-  - name: Travelling
-    link: https://travellings.now.sh/
-    icon: icon-send-plane-2-line
-    color: black
+#  - name: Travelling
+#    link: https://travellings.now.sh/
+#    icon: icon-send-plane-2-line
+#    color: black
 
 codeblock:
   copy_btn: true
@@ -163,13 +163,13 @@ menu:
       path: /tags/
       icon: icon-price-tag-3-line
   custom:
-    title: 文档
-    path: https://yun.yunyoujun.cn
+    title: docs
+    path: https://peyoot.github.io/docker-github-pages
     icon: icon-settings-line
 
 # archive
 archive:
-  last_word: 没有更多的黑历史了_(:з」∠)_
+  last_word: No more to learn! _(:з」∠)_
 
 wordcloud:
   enable: false
@@ -299,7 +299,7 @@ vendors:
 # UI
 banner:
   enable: true
-  title: 云游君的小站
+  title: Peyoot's secret garden
   src: /js/ui/banner.js
   border: true
   cloud:
