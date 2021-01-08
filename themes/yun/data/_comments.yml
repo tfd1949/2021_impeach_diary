@@ -3,7 +3,7 @@ comment:
   enable: true
   icon: icon-chat-3-line
   tips:
-    - 点击按钮跳转 GitHub Issues 评论。
+    - Clicke to jump to GitHub Issues。
     - 若没有本文 Issue，您可以使用 Comment 模版新建。
   # candidates:
   #   - valine
@@ -13,8 +13,8 @@ comment:
 # https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
 github_issues:
   enable: true
-  username: YunYouJun
-  repository: yunyoujun.github.io
+  username: peyoot
+  repository: docker-github-pages
   filters: is:issue
 
 # Valine

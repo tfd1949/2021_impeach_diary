@@ -4,6 +4,7 @@ cd ${dir_git%.*}
 npm install
 npm install hexo-deployer-git --save 
 npm install hexo-render-pug hexo-renderer-stylus
+npm install hexo-wordcount
 git config --global user.name "peyoot"
 git config --global user.email "peyoot@hotmail.com"
 hexo generate
