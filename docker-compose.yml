@@ -8,7 +8,7 @@ services:
     environment: 
       - HEXO_REPO=docker-github-pages
     volumes:
-      - ./${HEXO_REPO}:/${HEXO_REPO}:rw
+      - ./docker-github-pages:/docker-github-pages:rw
 
     entrypoint:
       - sh
