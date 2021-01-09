@@ -6,9 +6,9 @@ services:
     ports: 
       - "4000:4000"
     environment: 
-      - HEXO_REPO=blog
+      - HEXO_REPO=hexo-site
     volumes:
-      - ./blog:/blog:rw
+      - ./hexo-site:/hexo-site:rw
 
     entrypoint:
       - sh
