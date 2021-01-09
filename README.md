@@ -3,12 +3,13 @@ Based on node:14-alpine and pull all hexo and github pages project into the cont
 You only need to change container_name in docker-compose.yml. And then change the github account in build_and_run.sh.
  Do what hexo need to do in your other hexo config and theme. config It will be your Hexo webserver and also you can manually deploy to your github pages.
 
-#####How to
 
-New site:
-1. Modifiy docker-compose.yml. change container_name to a unique one ,such as docker-my-site;
+
+How to Start:
+
+1. Do whatever config change that hexo and it's theme needs.To deploy to github page, change repository name in the 'deploy' sector of theme's _config.yml
 2. Modify build_and_run.sh to use your own github account. If you want to deloy to github, this is useful
-3. Do whatever config change that hexo and it's theme needs.To deploy to github page, change repository name in the 'deploy' sector of theme's _config.yml
+3. If you have multiple sites to use this docker-container.Modifiy docker-compose.yml. change container_name to a unique one ,such as docker-my-site;
 
 First time, just run
 
