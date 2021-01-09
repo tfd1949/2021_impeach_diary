@@ -1,14 +1,14 @@
 version: '3'
 services:
-  docker-hexo:
+  hexo:
     build: .
     container_name: docker-github-pages
     ports: 
       - "4000:4000"
     environment: 
-      - HEXO_REPO=docker-github-pages
+      - HEXO_REPO=blog
     volumes:
-      - ./docker-github-pages:/docker-github-pages:rw
+      - ./blog:/blog:rw
 
     entrypoint:
       - sh
