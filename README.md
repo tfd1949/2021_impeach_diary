@@ -1,8 +1,9 @@
-Deploy Hexo with docker-compose and deploy to github pages
-Based on node:14-alpine and pull all hexo and github pages project into the container. 
+### Deploy Hexo with docker-compose and deploy to github pages
+Based on node:14-alpine and pull all hexo and github pages project into the container.
 You only need to change container_name in docker-compose.yml. And then change the github account in build_and_run.sh.
- Do what hexo need to do in your other hexo config and theme. config It will be your Hexo webserver and also you can manually deploy to your github pages.
+Do what hexo need to do in your other hexo config and theme. config It will be your Hexo webserver and also you can manually deploy to your github pages.
 
+在docker-compose中运行hexo，并部署到github pages上，请查阅[中文文档](README.zh-CN.md)了解用法。
 
 
 How to Start:
