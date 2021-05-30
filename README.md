@@ -10,7 +10,13 @@ How to Start:
 
 1. Do whatever config change that hexo and it's theme needs.To deploy to github page, change repository name in the 'deploy' sector of theme's _config.yml
 2. Modify build_and_run.sh to use your own github account. If you want to deloy to github, this is useful
-3. If you have multiple sites to use this docker-container.Modifiy docker-compose.yml. change container_name to a unique one ,such as docker-my-site;
+3. If you have multiple sites to use this docker-container. Modifiy docker-compose.yml. change container_name to a unique one ,such as docker-my-site;
+4. if you want to build existing blog/website rather than design from scratch , just pull your repository and rename it to hexo-site.
+<code>
+mv hexo-site hexo-site-bk
+git clone your-site
+mv your-site hexo-site
+</code>
 
 First time, just run
 
