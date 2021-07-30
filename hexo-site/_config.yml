@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 桃源司法所造假检举抗诉材料日志
+subtitle: '2021材料整理和申诉日志'
+description: '材料过多过杂，不方便检索，整理到这个档库库中，并对抗诉和检举相关事件做个记录'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: tfd1949
+language: zh
+timezone: 'Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
-root: /
+url: https://fd1949.github.io/2021_impeach_diary
+root: /2021_impeach_diary/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -29,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 'static/*'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -104,3 +104,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  repo: git://github.com/tfd1949/2021_impeach_diary
+  branch: gh-pages
