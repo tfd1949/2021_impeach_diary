@@ -104,5 +104,5 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git://github.com/tfd1949/2021_impeach_diary
+  repo: https://github.com/tfd1949/2021_impeach_diary
   branch: gh-pages
