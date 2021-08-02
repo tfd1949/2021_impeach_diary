@@ -4,10 +4,10 @@
 #Please manually use git to manage your github project in host
 cd ${HEXO_REPO}
 npm install
-npm install hexo-deployer-git --save 
+npm install hexo-deployer-git --save
 npm install hexo-render-pug hexo-renderer-stylus
 npm install hexo-wordcount
-git config --global user.name "peyoot"
-git config --global user.email "peyoot@hotmail.com"
+git config --global user.name "tfd1949"
+git config --global user.email "tfd1949@hotmail.com"
 hexo generate
 hexo server

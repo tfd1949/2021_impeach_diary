@@ -2,10 +2,10 @@ version: '3'
 services:
   hexo:
     build: .
-    container_name: docker-github-pages
-    ports: 
+    container_name: 2021_impeach_diary
+    ports:
       - "4000:4000"
-    environment: 
+    environment:
       - HEXO_REPO=hexo-site
     volumes:
       - ./hexo-site:/hexo-site:rw

@@ -2,145 +2,51 @@ mode: auto
 
 avatar:
   url: /images/tfdavatar.jpg
-  status:
-    enable: true
-    emoji: 🌑
-    message: Looking for dawn.
+
+banner:
+  enable: true
+  title: 倔强老头的糟心事
+
+# Post meta display settings
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at: false
+  categories: true
+  tags: true
+
 
 reward:
   enable: true
-  comment: 需要您们的帮助！
+  icon: icon-hand-coin-line
+  comment: 需要您们的帮助和支持！
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: https://cdn.jsdelivr.net/gh/peyoot/pic_bed/images/alipay-qr-m.PNG
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: https://cdn.jsdelivr.net/gh/peyoot/pic_bed/images/wechat-qr-m.PNG
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
 
-comment:
-  candidates:
-    - waline
-    # - giscus
-  tips:
-    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/tfd1949/tfd1949/discussions" target="_blank">GitHub Discussions</a> 与我交流。
 
-waline:
-  enable: true
-  serverURL: https://tfd1949-api.vercel.app
-  visitor: true
-  comment: true
-  avatarCDN: https://cdn.v2ex.com/gravatar/
-  placeholder: tfd1949@hotmail.com
-  requiredFields: ["nick"]
-
-github_issues:
-  enable: false
-
-github_discussions:
-  enable: false
-
-disqusjs:
-  enable: false
-  shortname: yunyoujun
-  apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
-
-# https://github.com/laymonage/giscus
-giscus:
-  enable: false
-  repo: tfd1949/2021_impeach_diary.github.io
-  repo-id:
-  category-id:
-  mapping: pathname
-  reactions-enabled: 1
-  emit-metadata: 0
-  theme: light
-
-footer:
-  since: 2021
-#  icon:
-#    url: https://sponsors.yunyoujun.cn
-#    title: 云游君的赞助者们
-#  beian:
-#    enable: true
-#    icp: 苏ICP备17038157号
-  support:
-    enable: false
-    title: 又拍云
-    link: https://www.upyun.com
-    logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
-    prefix: 本网站由
-    suffix: 提供 CDN 加速
-  custom_text:
-
-engine_search:
-  enable: false
-
-# If you want to use it, you need config algolia appID in _config.yml!!!
-# https://github.com/oncletom/hexo-algolia
-algolia_search:
-  enable: true
-  # ...
-
-google_analytics:
-  enable: false
-  id: G-1LL0D86CY9
-
-google_adsense:
-  enable: false
-  client: ca-pub-2245427233262012
-
-post_edit:
-  enable: false
-  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
-
-albums:
-  enable: true
-
-girls:
-  enable: true
-
-tags:
-  动画: crimson
-  漫画: orange
-  Parcel: "#21374b"
-  学习: saddlebrown
-  MAD: crimson
-  教程: royalblue
-  笔记: dimgray
-  分享: "#0078e7"
-  随笔: mediumpurple
-  Blender: "#d04d2d"
-  Linux: "#2577b1"
-  中传: "#ccb44b"
-  部落: "#DD306A"
-  科幻: midnightblue
-
-categories:
-  云游的小视频: "#FB7299"
-
-pages:
-  - name: 我的小伙伴们
-    url: /links/
-    icon: icon-genderless-line
-    color: dodgerblue
-  - name: 喜欢的女孩子
-    url: /girls/
-    icon: icon-women-line
-    color: hotpink
-
-menu:
-  custom:
-    title: 留言板
-    path: /about/#comment
-    icon: icon-clipboard-line
-
-cursor:
-  enable: true
-
-baidu_push: true
-
-google_tagmanager:
-  enable: false
-  id: GTM-M9KWR9L
-
-wordcount:
-  enable: false
-
-say:
-  api: https://el-bot-api.vercel.app/api/words/young
-  hitokoto:
-    enable: false
+social:
+  - name: QQ 群 921527441
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://qm.qq.com/cgi-bin/qm/qr?k=B2bWI0VHk1lgzJNfwcjH1nP41_qLfShO&jump_from=webapi
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/tfd1949
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 头条
+    link: https://www.toutiao.com/c/user/token/MS4wLjABAAAAc5cR0FvhDgdP5qh0QaiiaAL73e050PDSOH9wJ8FHp7-YhfQqYHl34S8Fy4IutUjQ/
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: E-Mail
+    link: mailto:tfd1949@hotmail.com
+    icon: icon-mail-line
+    color: "#8E71C1"
