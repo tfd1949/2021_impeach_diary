@@ -103,6 +103,6 @@ theme: yun
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
   repo: git://github.com/tfd1949/2021_impeach_diary
   branch: gh-pages
