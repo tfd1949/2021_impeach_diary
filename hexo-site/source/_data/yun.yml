@@ -50,3 +50,20 @@ social:
     link: mailto:tfd1949@hotmail.com
     icon: icon-mail-line
     color: "#8E71C1"
+
+
+comment:
+  candidates:
+    - waline
+    # - giscus
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/YunYouJun/yunyoujun.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+
+waline:
+  enable: true
+  serverURL: https://tfd1949-api-f33bvhhr4-tfd1949.vercel.app
+  visitor: true
+  comment: true
+  avatarCDN: https://cdn.v2ex.com/gravatar/
+  placeholder: tfd1949@hotmail.com
+  requiredFields: ["nick"]
