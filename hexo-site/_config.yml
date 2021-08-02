@@ -9,7 +9,7 @@ description: '材料过多过杂，不方便检索，整理到这个档库库中
 keywords:
 author: tfd1949
 language: zh
-timezone: 'Shanghai'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
