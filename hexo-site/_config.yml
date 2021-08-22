@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 桃源司法所造假检举抗诉材料日志
-subtitle: '2021材料整理和申诉日志'
-description: '材料过多过杂，不方便检索，整理到这个档库库中，并对抗诉和检举相关事件做个记录'
+title: 历史有记忆－沉雁往事
+subtitle: '2021材料整理日志'
+description: '简单的事不简单'
 keywords:
 author: 沉雁待雪
 language: zh-CN
@@ -104,5 +104,5 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/tfd1949/2021_impeach_diary
+  repo: https://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@github.com/tfd1949/2021_impeach_diary.git
   branch: gh-pages
