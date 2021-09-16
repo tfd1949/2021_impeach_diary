@@ -104,5 +104,10 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://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@github.com/tfd1949/2021_impeach_diary.git
-  branch: gh-pages
+  repo:
+    github:
+      url: https://github.com/tfd1949/2021_impeach_diary.git
+      branch: gh-pages
+      token: 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
+  name: tfd1949
+  email: tfd1949@hotmail.com
